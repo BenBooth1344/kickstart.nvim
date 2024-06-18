@@ -22,8 +22,19 @@ If you are experiencing issues, please make sure you have the latest versions.
 ### Install External Dependencies
 
 External Requirements:
+- [zig](https://ziglang.org/learn/getting-started/)
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
+- rustup
+- tree-sitter-cli
+```sh
+cargo install tree-sitter-cli
+```
+- node. install "NVM" or "NVM for Windows", then 
+```sh
+nvm install latest
+nvm use VERSION_INSTALLED
+```
 - Clipboard tool (xclip/xsel/win32yank or other depending on platform)
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
   - if you have it set `vim.g.have_nerd_font` in `init.lua` to true
